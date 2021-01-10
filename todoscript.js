@@ -24,9 +24,6 @@ while(todoItems !== "quit" && todoItems !== "q"){
  else if (todoItems === "list"){
      let list = todos;
    console.log("**************");
-//    for (let i of list){
-//     console.log(`No.${} ${[i]}`);
-//    }
     for (let i = 0; i < list.length; i++) {
         const eachL = list[i];
         console.log(`No.${[i]}, ${eachL}::: Has a word Count of:${eachL.length}.`);
@@ -38,20 +35,8 @@ while(todoItems !== "quit" && todoItems !== "q"){
      let deleteTodo = parseInt(prompt("What todo to Delete?", "e.g: 2"));
      let deletedTodo = todos.splice(deleteTodo, 1);
      console.log(`The Todo "${deletedTodo}" with index No.${deleteTodo} is deleted.`);
-
-//  }else if (todoItems === "quit"){
-//     console.log("You Quit!");
-
  }
     todoItems = prompt("What would you want to do?", `e.g: Enter "new" to create a Todo`);
     
 }
 console.log("You Quit!");
-
-//     numTodo = todos.length;
-
-//write a code to prompt for a new todo and add to the list.
-
-
-// List the Todo on the console when queried.
-
