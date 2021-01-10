@@ -7,8 +7,6 @@
 const todos = [];
 let numTodo = 0;
 
-// Create a Loop for the questions of the prompts.
-
 let todoItems = prompt("What would you want to do?", `e.g: Enter "new" to create a Todo`);
 
 //Create a while loop to keep asking for a Todo until quit.
