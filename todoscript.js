@@ -37,10 +37,18 @@ while(todoItems !== "quit" && todoItems !== "q"){
     }
     // let todoItems = prompt("Enter a Todo", "Write some code...");
  }else if(todoItems === "delete"){
-     let deleteTodo = parseInt(prompt("What todo to Delete?", "e.g: 2"));
+     let deleteTodo = parseInt(prompt(`Delete which todo?", "e.g: 2 or * to Delete All`));
+     if(deleteTodo === 101010){
+         if (todos.length === 0){
+         console.log(`Your Todo list is already empty! Add new todos by entering the word "new"`);
+        }else{
+         todos.slice(0);
+         console.log(`All todo's have been deleted!`);}
+        }
+         else{
      let deletedTodo = todos.splice(deleteTodo, 1);
      console.log(`The Todo "${deletedTodo}" with index No.${deleteTodo} is deleted.`);
- }
+ }}
     todoItems = prompt("What would you want to do?", `e.g: Enter "new" to create a Todo`);
     
 }
