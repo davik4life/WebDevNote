@@ -43,7 +43,10 @@ while(todoItems !== "quit" && todoItems !== "q"){
          console.log(`Your Todo list is already empty! Add new todos by entering the word "new"`);
         }else{
          todos.slice(0);
-         console.log(`All todo's have been deleted!`);}
+         console.log(`All todo's have been deleted!`);
+        }
+        }else if (Number.isNaN(deleteTodo)) {
+            console.log(`Please enter a number. Only Numbers are acceptable!`);
         }
          else{
      let deletedTodo = todos.splice(deleteTodo, 1);
