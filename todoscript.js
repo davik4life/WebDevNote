@@ -21,13 +21,20 @@ while(todoItems !== "quit" && todoItems !== "q"){
 // When a Todo is entered, push the todo entered to the todos array.
  else if (todoItems === "list"){
      let list = todos;
+       if(list.length !== 0){
    console.log("**************");
     for (let i = 0; i < list.length; i++) {
+       
         const eachL = list[i];
         console.log(`No.${[i]}, ${eachL}::: Has a word Count of:${eachL.length}.`);
         
     }
     console.log("**************");
+        }else{
+            console.log("**************");
+        console.log(`The Todo List is empty! Enter "new" to enter a New Todo.`);
+        console.log("**************");
+    }
     // let todoItems = prompt("Enter a Todo", "Write some code...");
  }else if(todoItems === "delete"){
      let deleteTodo = parseInt(prompt("What todo to Delete?", "e.g: 2"));
