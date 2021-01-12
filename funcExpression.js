@@ -26,4 +26,3 @@ const squared = function (a) {
 };
 
 //if squared(4); is called, you would get 16. You can also use the Math.pow() to acheive the same result.
-
