@@ -20,7 +20,7 @@ function rollDie() {
 
 
 
-function FirstFunc(min, max) {
+function ageGroup(min, max) {
     return function (num) {
         return num >=min && num <= max;
     };
@@ -32,10 +32,10 @@ function FirstFunc(min, max) {
 
 // First pass it into a variable and give it a name to make it a unique function.
 
-const child = FirstFunc(12, 18);// This makes child a function in form of a variable or stored in a variable.
+const child = ageGroup(12, 18);// This makes child a function in form of a variable or stored in a variable.
 // You can now have several variance of the same function to make them unique.
 
-const adult = FirstFunc(19, 30); // for Adult.
-const aged = FirstFunc(31, 90); // for Aged.
+const adult = ageGroup(19, 30); // for Adult.
+const aged = ageGroup(31, 90); // for Aged.
 
 // Then call child(17); This would return true because it falls between the min & max.
