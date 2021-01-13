@@ -1,11 +1,11 @@
 /*  Note:
-    Object an non-iterable elements. You cannot apply functions like .length 
+    Object is a non-iterable element. You cannot apply functions like .length 
     or enumerate through the properties like you would with the array object.
 
     Let's see some code samples of working with Object.
 */ 
 
-// Delcare an Object
+// Declare an Object
 
 let class5 = {
     className: "Primary 5",
@@ -19,7 +19,7 @@ let class5 = {
 // Using the ES6 For of statement
 
 // for (let student of class5){
-//     // Do something...
+//     Do something...
 //     console.log(`All students in ${class5.className} are of the agegroup of ${class5.ageGroup}`);
 // }
 
@@ -31,7 +31,7 @@ let class5 = {
 
     To make this work, 
     we must either find a way to make an array from the Object using the "for in" loop
-    or use the special Object.values or Object.keys method to be able to work with the data.
+    or use the special Object.values or Object.keys method to be able to work with the Object data.
 */ 
 
 for (let student in class5){
@@ -53,7 +53,7 @@ for (let student in class5){
 */
 
 for (let eachStudent in class5){
-    console.log(`Class 5 has the following Keys: ${Object.keys(class5)}`);
+    console.log(`Class 5 has the following Keys: ${Object.keys(class5[eachStudent])}`);
     console.log(`Class 5 has the following Values: ${Object.values(class5)}`);
 }
 
