@@ -12,3 +12,6 @@ const id = setInterval(() => {
 setTimeout(() => {
     console.log(`Hello Great Developer!!! This is setTimeout!!! `);
 }, 3000);
+
+
+// setTimeout would play more role during async JavaScript Section.
