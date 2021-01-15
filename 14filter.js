@@ -36,3 +36,4 @@ const filterYear = arrayFilter.filter(m => m.year > 2000);
 // Nesting .map() method inside of a
 const filterScore = arrayFilter.filter(m => m.score ).map( m => m.score);
 const boolScores = arrayFilter.filter(m => m.score ).map( m => m.score > 85); // This would return a boolean
+
