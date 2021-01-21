@@ -62,13 +62,14 @@ for (let eachStudent in class5){
     making a total of 12. 
 
     Now that we have made an array of the Object using the Object method,
-    we can now perfrom logis na duse the data the way we would normally do 
+    we can now perfrom logic on the data the way we would normally do 
     like when accessing an array.
 */
 
 let count = 0;
 let ourClass = Object.values(class5);
-for (const eachP of ourClass) {
+for (let eachP of ourClass) {
     count++;
     console.log(`This is line ${count} and the length of our class Object now is ${ourClass.length}`);
+    console.log(`${eachP}`);
 }
