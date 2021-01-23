@@ -34,5 +34,4 @@ const squared = {
     }
 };
 
-
 // both would work perfectly. e.g: squared.area(3)/ Output: 9.
