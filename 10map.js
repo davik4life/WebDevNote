@@ -1,5 +1,5 @@
 /*  Map is a way of getting some portion of data into an array.
-    is is similar to forEach because it accepts a callback function and it runs that function once per element in an array.
+    it is similar to forEach because it accepts a callback function and it runs that function once per element in an array.
     It generates a new array using the result or return of the new array.
  */
 
