@@ -41,3 +41,16 @@ function positiveSum(arr) {
 }
 
 // Reduce can be used to do a whole lot more than just sum all numbers in an array.
+
+
+// The reduce function also takes a second and a third argument depending on what is needed.
+
+// For example;
+
+const startingPoint = [10,20,30,40,50];
+
+const added = startingPoint.reduce((a, b) => a + b, 20);
+
+// The second argument 20 that's added serves as an initial value for the array "startingPoint";
+
+// Now, When added is called, it would add 20 to the entire calculation.
