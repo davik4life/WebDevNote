@@ -197,3 +197,9 @@ function positiveSum (arr){
     const total = arr.filter((value) => value >= 0).reduce((sum, item) => sum + item)
     return total;
 }
+
+
+// Had a very long day today and didn't do much. Just wanted to push this, would go back and do a 
+// review of my study thus far and get back to coding for some more couple hours.
+
+// i want to complete the readng of my JavaScript book this week. Just an update.
