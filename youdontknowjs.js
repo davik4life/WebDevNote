@@ -50,7 +50,8 @@ while (buyPhone !== 'q' && buyPhone !== 'quit') {
     buyPhone = prompt('What phone do you want to buy?', 'iPhone6');
     
 }
-
+// Once the loop is fininshed, you want to ensure that whatever you want to achieve
+// after the condition of the while loop is achieved is placed below the while loop
 console.log('You Quit!');
 
 
