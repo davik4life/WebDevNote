@@ -203,3 +203,6 @@ function positiveSum (arr){
 // review of my study thus far and get back to coding for some more couple hours.
 
 // i want to complete the readng of my JavaScript book this week. Just an update.
+
+// I fninshed over 80 modules of FreeCodeCamp JavaScript Basics within 4 hours throughout the night. 
+// The refresher was well worth it.
