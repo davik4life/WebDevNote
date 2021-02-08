@@ -3,23 +3,23 @@
 
 
 function add7(num){
-  return num + 7;
+	return num + 7;
 }
 
 function multiply(num, num2){
-  return num * num2;
+	return num * num2;
 }
 
 function capitalize (word){
-  let firstLetter = word.charAt(0).toUpperCase();
-  let restLetter = word.slice(1);
-  return firstLetter + restLetter;
+	let firstLetter = word.charAt(0).toUpperCase();
+	let restLetter = word.slice(1);
+	return firstLetter + restLetter;
 }
 
 function lastLetter (letter){
-  // pop the last letter.
-  let theLastLetter = letter.split('').pop();
-  return theLastLetter;
+	// pop the last letter.
+	let theLastLetter = letter.split("").pop();
+	return theLastLetter;
 }
 
 lastLetter("Victor");
