@@ -1,3 +1,4 @@
+
 // Refactoring a code from an Hashnode Article.
 
 const num = 3;
@@ -15,4 +16,4 @@ const multiplyBy2Again = function (inputNumber) {
 };
 
 
-// multiplyBy2Again(10) Output = 20, and multiplyBy2Again(3) Output = 6
+// multiplyBy2Again(10) Output = 20, and multiplyBy2Again(3) Output = 6git 
