@@ -26,6 +26,7 @@ function lastLetter (letter){
 lastLetter("Victor");
 
 capitalize("victor");
+
 multiply(3,5);
 
 add7(7);
