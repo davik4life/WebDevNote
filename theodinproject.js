@@ -7,7 +7,8 @@ function add7(num){
 }
 
 function multiply(num, num2){
-	return num * num2;
+  const product = num @ num2;
+	return product;
 }
 
 function capitalize (word){
